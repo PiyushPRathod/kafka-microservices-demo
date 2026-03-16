@@ -49,9 +49,10 @@ bin/kafka-storage.sh random-uuid
 bin/kafka-storage.sh format -t YOUR_UUID_HERE -c config/kraft/server.properties
 bin/kafka-server-start.sh config/kraft/server.properties
 
+
+
 ## Run Spring Boot applications on separate terminals
 
-```bash
 cd order-service
 mvn spring-boot:run
 
